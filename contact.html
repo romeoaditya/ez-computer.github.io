@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ - Computer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="sample-img/logo2.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-regular fa-circle-xmark" onclick="hideMenu();"></i>
+                <ul>
+                    <li><a href="index.html">HALAMAN UTAMA</a></li>
+                    <li><a href="about.html">TENTANG</a></li>
+                    <li><a href="contact.html">KONTAK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu();"></i>
+        </nav>
+        <h1>Hubungi Kami</h1>
+    </section>
+
+
+    <!-- contact us -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3486565735784!2d106.7576854!3d-6.3488824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef9790728979%3A0x4ad391fdf499552!2sEz-%20computer!5e0!3m2!1sid!2sid!4v1686977729399!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-solid fa-shop"></i>
+                    <span>
+                        <h5>EZ - Computer, Service Komputer dan Laptop.</h5>
+                        <p>JL.Kemiri Raya, Pondok Cabe Udik, Tanggerang Selatan, Banten</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+62 895333610046</h5>
+                        <p>Buka setiap hari. "Jum'at libur", 9:00 AM to 6:00 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>romeoaditya22@gmail.com</h5>
+                        <p>Email kami untuk pertanyan anda</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="https://formsubmit.co/romeoaditya22@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <p>Copyright © EZ - Computer Website | All Rights Reserved</p>
+
+        <div class="icons">
+            <a href="https://wa.me/62895333610046?text=Hallo%2C%20EZ%20Computer"><i class="fa fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100093645186313&mibextid=ZbWKwL"><i class="fa fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/romeoadity_"><i class="fa fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-regular fa-heart"></i> by <a href="https://instagram.com/romeoadity_">Romeo Aditya</a></p>
+    </section>
+
+
+
+
+
+    <!-- Contact Form -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script>
+        const constraints = {
+            name: {
+                presence: { allowEmpty: false }
+            },
+            email: {
+                presence: { allowEmpty: false },
+                email: true
+            },
+            subject: {
+                presence: { allowEmpty: false }
+            },
+            message: {
+                presence: { allowEmpty: false }
+            }
+        };
+     
+        const form = document.getElementById('contact-form');
+     
+        form.addEventListener('submit', function (event) {
+          const formValues = {
+              name: form.elements.name.value,
+              email: form.elements.email.value,
+              subject: form.elements.subject.value,
+              message: form.elements.message.value
+          };
+     
+          const errors = validate(formValues, constraints);
+     
+          if (errors) {
+            event.preventDefault();
+            const errorMessage = Object
+                .values(errors)
+                .map(function (fieldValues) { return fieldValues.join(', ')})
+                .join("\n");
+     
+            alert(errorMessage);
+          }
+        }, false);
+     </script> -->
+
+<!-- End Contact form script -->
+
+<script>
+    var navLink = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html> 

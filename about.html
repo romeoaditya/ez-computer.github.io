@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ - Computer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="sample-img/logo2.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-regular fa-circle-xmark" onclick="hideMenu();"></i>
+                <ul>
+                    <li><a href="index.html">HALAMAN UTAMA</a></li>
+                    <li><a href="about.html">TENTANG</a></li>
+                    <li><a href="contact.html">KONTAK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu();"></i>
+        </nav>
+        <h1>Tentang Kami</h1>
+    </section>
+
+
+    <!-- about us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Mengapa memilih EZ - Computer?</h1>
+                <p>Berikut alasan mengapa memilih EZ - Computer untuk perbaikan Komputer, Laptop, dan TV anda :</p>
+                <div>
+                    <i class="fa fa-solid fa-clock"></i>
+                    <span>
+                        <h5>Fast Respon</h5>
+                        <p>Kami berusaha melayani dengan cepat dan menanggapi keluhan permasalahan konsumen kami.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-user-gear"></i>
+                    <span>
+                        <h5>Teknisi Berpengalaman</h5>
+                        <p>Tidak perlu ragu dengan teknisi kami, berpengalaman ahli, profesional dan jujur.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-microchip"></i>
+                    <span>
+                        <h5>Sparepart Original</h5>
+                        <p>EZ - Computer selalu memberikan Sparepart Original untuk hasil terbaik untuk customer kami.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-coins"></i>
+                    <span>
+                        <h5>Biaya Terjangkau dan Relevan</h5>
+                        <p>Jangan khawatir tentang harga jasa dan Sparepart kami, EZ - Computer selalu memberikan harga terbaik bagi anda.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-award"></i>
+                    <span>
+                        <h5>Bergaransi</h5>
+                        <p>Tidak perlu khawatir jasa service dan instalasi selalu bergaransi untuk menjamin kepuasan Customer.</p>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <p>Copyright © EZ - Computer Website | All Rights Reserved</p>
+
+        <div class="icons">
+            <a href="https://wa.me/62895333610046?text=Hallo%2C%20EZ%20Computer"><i class="fa fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100093645186313&mibextid=ZbWKwL"><i class="fa fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/romeoadity_><i class="fa fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-regular fa-heart"></i> by <a href="https://instagram.com/romeoadity_">Romeo Aditya</a></p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLink = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html> 

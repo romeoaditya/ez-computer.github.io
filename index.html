@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ - Computer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="sample-img/logo2.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-regular fa-circle-xmark" onclick="hideMenu();"></i>
+                <ul>
+                    <li><a href="index.html">HALAMAN UTAMA</a></li>
+                    <li><a href="about.html">TENTANG</a></li>
+                    <li><a href="contact.html">KONTAK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu();"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Service Komputer Laptop TV LED</h1>
+            <p>Service Komputer | Laptop | Software | Hardware | Install Ulang <br>  TV LED | Smart TV | Android TV </p>
+            <a href="contact.html" class="hero-btn">Hubungi Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Course -->
+    <!-- <section class="course">
+        <h1>Pelayanan Kami</h1>
+        <p>Layanan Service dengan Harga terbaik.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero ad dignissimos placeat. Quas atque omnis qui reiciendis quibusdam fuga assumenda nostrum cum, inventore fugit officiis iste ducimus ullam quidem.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero ad dignissimos placeat. Quas atque omnis qui reiciendis quibusdam fuga assumenda nostrum cum, inventore fugit officiis iste ducimus ullam quidem.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero ad dignissimos placeat. Quas atque omnis qui reiciendis quibusdam fuga assumenda nostrum cum, inventore fugit officiis iste ducimus ullam quidem.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Campus -->
+    <section class="campus">
+        <h1>Layanan Kami</h1>
+        <p>Kami adalah salah satu perusahaan penyedia layanan perbaikan laptop terbaik di Pondok Cabe dan memperbaiki sistem Anda di rumah atau kantor Anda dengan harga yang sangat murah.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="sample-img/tv.jpg">
+                <div class="layer">
+                    <h3>TV LED</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="sample-img/cpu.jpg">
+                <div class="layer">
+                    <h3>Jual Komputer</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="sample-img/pc.jpg">
+                <div class="layer">
+                    <h3>CPU</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Facilities -->
+
+    <!-- <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="sample-img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in nihil reiciendis nostrum iste deserunt impedit ad.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="sample-img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in nihil reiciendis nostrum iste deserunt impedit ad.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="sample-img/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in nihil reiciendis nostrum iste deserunt impedit ad.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Call To Action -->
+    <section class="cta">
+        <h1>Service Komputer Laptop Software Hardware Install Ulang TV LED Smart TV dan Android TV anda </h1>
+        <a href="contact.html" class="hero-btn">HUBUNGI KAMI</a>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <p>Copyright © EZ - Computer Website | All Rights Reserved</p>
+
+        <div class="icons">
+            <a href="https://wa.me/62895333610046?text=Hallo%2C%20EZ%20Computer"><i class="fa fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100093645186313&mibextid=ZbWKwL"><i class="fa fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/romeoadity_"><i class="fa fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-regular fa-heart"></i> by <a href="https://instagram.com/romeoadity_">Romeo Aditya</a></p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLink = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html> 
